@@ -1,0 +1,14 @@
+# ключі та секрети - НІКОЛИ не комітити
+.env
+.env.*
+*credentials*.json
+*-token*
+# записи дзвінків та транскрипти реальних клієнтів
+*.mp3
+*.m4a
+*.wav
+*.mp4
+sample-data/*-real*
+# службове
+.DS_Store
+node_modules/
