@@ -28,7 +28,7 @@
 
 ## Швидкий старт (7 кроків)
 
-1. **n8n:** імпортуй https://github.com/boxa007/ai-delivery-management/blob/main/%D0%A3%D1%80%D0%BE%D0%BA%206%20-%20%D0%90%D0%B3%D0%B5%D0%BD%D1%82%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D1%96%D1%96%CC%88%20%D0%B7%D0%B2%D1%96%D1%82%D1%96%D0%B2%20(ClickUp%20-_%20%D0%B7%D0%B2%D1%96%D1%82%20-_%20%D0%BA%D0%BB%D1%96%D1%94%D0%BD%D1%82).json (Workflows → Import from File). Для Jira - [`workflow-meeting-notes-jira.json`](workflow-meeting-notes-jira.json).
+1. **n8n:** імпортуй https://github.com/boxa007/ai-delivery-management/blob/main/%D0%A3%D1%80%D0%BE%D0%BA%206%20-%20%D0%90%D0%B3%D0%B5%D0%BD%D1%82%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D1%96%D1%96%CC%88%20%D0%B7%D0%B2%D1%96%D1%82%D1%96%D0%B2%20(ClickUp%20-_%20%D0%B7%D0%B2%D1%96%D1%82%20-_%20%D0%BA%D0%BB%D1%96%D1%94%D0%BD%D1%82).json (Workflows → Import from File). 
 2. **DeepInfra:** [deepinfra.com](https://deepinfra.com) → API keys → встав токен у ноду **Transcribe**, Header Auth: `Authorization` = `Bearer ТВІЙ_КЛЮЧ`.
 3. **OpenAI:** встав ключ у sub-ноду **OpenAI Chat Model** (НЕ в chain - помилка #1).
 4. **ClickUp:** Settings → Apps → API Token. Там же візьми `list_id`.
